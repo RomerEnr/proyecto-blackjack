@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    h1{
+        @apply text-6xl;
+    }
+    .btn-bj{
+        @apply p-3 rounded-xl mr-5 mt-5 transform duration-200;
+    }
+    .texto-ganador{
+        @apply text-white font-bold text-l;
+    }
+}
+
+.card{
+    @apply w-40 relative left-28 -ml-20;
+}
+
+.mensaje-ganador{
+    @apply flex justify-center items-center w-72 h-20 border bg-cyan-500 border-8 border-green-300 rounded-xl p-6;
+}
+
+.mensaje-perdedor{
+    @apply flex justify-center items-center w-72 h-20 border bg-red-500 border-8 border-orange-300 rounded-xl p-6;
+}
+
+.mensaje-empate{
+    @apply flex justify-center items-center w-72 h-20 border bg-black border-8 border-white rounded-xl p-6;
+}
