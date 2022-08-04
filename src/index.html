@@ -13,9 +13,9 @@
 
     <div class="container mx-auto flex flex-col my-3 justify-center">
       <div id="divBotones"  class="text-center">
-        <button id="btnNuevo" class="btn-bj bg-red-700 hover:bg-red-500">Nuevo juego</button>
-        <button id="btnPedir" class="btn-bj bg-cyan-700 hover:bg-cyan-500">Pedir carta</button>
-        <button id="btnDetener" class="btn-bj bg-cyan-700 hover:bg-cyan-500">Detener</button>
+        <button  id="btnNuevo" class="btn-bj bg-red-700 hover:bg-red-500">Nuevo juego</button>
+        <button disable="disabled" id="btnPedir" class="btn-bj bg-cyan-700 hover:bg-cyan-500">Pedir carta</button>
+        <button disabled="disabled" id="btnDetener" class="btn-bj bg-cyan-700 hover:bg-cyan-500">Detener</button>
       </div>
     </div>
 
@@ -27,7 +27,7 @@
           <div class="flex flex-col">
             <h1>Jugador - <small id="small-player">0</small></h1>
     
-            <div class="flex my-16" id="jugador-cartas">
+            <div class="flex my-16 divCartas" id="jugador-cartas">
     
     
             </div>
@@ -38,7 +38,7 @@
           <div class="flex flex-col">
             <h1>Computadora - <small>0</small></h1>
     
-            <div class="flex my-16" id="computadora-cartas">
+            <div class="flex my-16 divCartas" id="computadora-cartas">
     
             </div>
           </div>
@@ -57,7 +57,7 @@
 
     
 
+    <script src="/js/index-min.js"></script>
 
-    <script src="/js/index.js"></script>
   </body>
 </html>
